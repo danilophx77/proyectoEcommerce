@@ -1,0 +1,22 @@
+.container-footer {
+    border-top: 3px solid #2A7AE4;
+    border-radius: 5px;
+    align-items: center;
+    color:black;
+    display: flex;
+    font-size: 18px;
+    line-height: 19px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.container-footer a {
+    
+    border-radius:5px;
+    background-color:#EAF2FD;
+    margin: 5px;
+}
+
+.container-footer p{
+    color: white;
+}

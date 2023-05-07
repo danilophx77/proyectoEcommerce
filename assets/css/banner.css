@@ -1,0 +1,69 @@
+.banner{
+    background:  url(../img/banner-image.png);
+    width: 100%;
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner__contenido{
+    text-align: center;
+    top:calc(352px / 2);
+    color: black;
+}
+
+.banner__titulo{
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px white;
+}
+
+.banner__texto{
+    color: white;
+    font-weight: 500;
+    margin-bottom: 12rem;
+    text-shadow: 1px 1px 2px #2A7AE4;
+}
+.banner__texto:hover{
+    color: white;
+    transition: 10ms;
+    font-weight: 700;
+    margin-bottom: 12rem;
+    text-shadow: 2px 2px 3px #2A7AE4;
+}
+
+.banner__boton{
+    
+    color:#2A7AE4;
+    background-color:black;
+    padding: .8rem 1rem;
+    border-radius: 5rem;
+}
+
+.banner__boton:hover{
+    box-shadow: 1px 1px 8px 0px #2A7AE4;
+}
+
+
+
+/* ----- Responsive para Mobiles ------ */
+
+
+@media only screen and (max-width: 767px){
+
+    .banner{
+        height: 252px;
+    }
+
+    .banner__contenido{
+        top:calc(200px / 2);
+    }
+
+    .banner__titulo{
+        font-size: 32px;
+    }
+    
+
+}
